@@ -76,15 +76,124 @@ body {
 
     /* MAIN */
 
+    h2 {
+        color: var(--midnight-blue);
+        font-size: 2rem;
+        margin-bottom:.75rem;
+    }
+
+    section {
+        margin-bottom: 2rem;
+    }
+    
+    section p {
+        font-size: .95rem;
+    }
+
     /* DIVIDER STYLE */
+    section {
+        border-bottom: 2px solid var(--champagne-gold);
+        padding-bottom: 1.5rem;
+    }
+
+    section:last-of-type {
+        border: none;
+    }
+
+    section.gallery {
+        border-top: 2px solid var(--champagne-gold);
+        padding-top: 1.5rem;
+    }
 
     /* OFFERINGS SECTION */
+    section.artisan, section.experiences, section.basket {
+        background: var(--olive-green);
+        color: white;
+        padding:1rem;
+        border-radius: 6px;
+        box-shadow: 0 2px 5 px rgba(0,0,0,.25);
+        border:none;
+        margin-bottom: 1rem;
+    }
+
+    section.artisan h3, section.experiences h3, section.basket h3 {
+        color: white;
+        font-size: 1.5rem;
+        margin-bottom: .5rem;
+    }
+
+    main ul {
+        margin-left: 1.25rem;
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+    }
 
     /* GALLERY SECTION */
+    figure {
+        background: white;
+        border-radius: 6px;
+        overflow: hidden;
+        box-shadow: 0 2px 6px rgba(0,0,0,.25);
+        margin-bottom: 1rem;
+    }
+
+    figure img {
+        display: block;
+        width: 100%;
+    }
+
+    figcaption {
+        padding: .5rem;
+        text-align: center;
+        font-style: italic;
+        font-size: .75rem;
+    }
 
     /* GALLERY BUTTON */
+    .gallery-button {
+        display: block;
+        background:var(--olive-green);
+        color:white;
+        text-decoration: none;
+        text-align: center;
+        padding: 1rem;
+        border-radius: 4px;
+        font-weight: bold;
+        margin: 1.5rem 0;
+    }
+
+    .gallery-button:hover {
+        background: var(--champagne-gold);
+    }
+
+    section.last-divider {
+        border-bottom: 2px solid var(--champagne-gold);
+        padding-bottom: 1rem;
+        margin: 2rem 2rem;
+    }
 
     /* FOOTER */
+    footer {
+        background: var(--midnight-blue);
+        color: white;
+        text-align: center;
+        padding: 2rem 1rem;
+        font-size: 1rem;
+    }
+
+    footer p:first-of-type{
+        margin-top: 4rem;
+    }
+
+    footer p:last-of-type {
+        margin-bottom: 4rem;
+    }
+
+    footer a {
+        color: var(--champagne-gold);
+        text-decoration: none;
+        font-weight: bold;
+    }
 
 
 
