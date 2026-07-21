@@ -1,13 +1,16 @@
-/* Global Reset */
+/* CSS BY Erwin Reyes*/
+
+/* Imported Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* CSS Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-
-/* Colors and Fonts*/
+/* Root Variables */
 :root {
     --midnight-blue: #1F2A44;
     --olive-green: #76885B;
@@ -20,9 +23,114 @@
 }
 
 body {
-    font-family: var(--main-font);
+    background:var(--linen);
+    color:var(--dark-charcoal);
+    font-family:var(--main-font);
+    line-height: 1.5;
 }
 
-h1 {
-    font-size: 3rem;
-}
+
+
+/* Global Styles (MOBILE FIRST/SMALL) */
+
+    /* Header styles*/
+    header {
+        background:var(--midnight-blue);
+        text-align: center;
+        padding: 1.5rem 1rem;
+    }
+
+    header img {
+        width: 150px;
+        display: block;
+        margin: 0 auto 1rem;
+    }
+
+    header h1 {
+        color:var(--soft-white);
+        font-size: 3rem;
+        margin-bottom: .5rem;
+    }
+    
+    header p {
+        color:var(--soft-white);
+        font-style: italic;
+        font-size: .9rem;
+    }
+
+    /* NAV */
+    
+
+    /* MAIN */
+
+    /* DIVIDER STYLE */
+
+    /* OFFERINGS SECTION */
+
+    /* GALLERY SECTION */
+
+    /* GALLERY BUTTON */
+
+    /* FOOTER */
+
+
+
+/* MEDIA QUERY (MEDIUM) */
+
+    /* Header styles*/
+
+    /* NAV */
+
+    /* MAIN */
+
+    /* DIVIDER STYLE */
+
+    /* OFFERINGS SECTION */
+
+    /* GALLERY SECTION */
+
+    /* GALLERY BUTTON */
+
+    /* FOOTER */
+
+
+
+
+/* MEDIA QUERY (LARGE) */
+
+    /* Header styles*/
+
+    /* NAV */
+
+    /* MAIN */
+
+    /* DIVIDER STYLE */
+
+    /* OFFERINGS SECTION */
+
+    /* GALLERY SECTION */
+
+    /* GALLERY BUTTON */
+
+    /* FOOTER */
+
+
+
+
+/* MEDIA QUERY (XL) */
+
+    /* Header styles*/
+
+    /* NAV */
+
+    /* MAIN */
+
+    /* DIVIDER STYLE */
+
+    /* OFFERINGS SECTION */
+
+    /* GALLERY SECTION */
+
+    /* GALLERY BUTTON */
+
+    /* FOOTER */
