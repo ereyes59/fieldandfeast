@@ -78,7 +78,7 @@ body {
         text-decoration: none;
         color: var(--midnight-blue);
         font-weight: bold;
-        font-size: 1.25rem;
+        font-size: 1.75rem;
     }
 
     /* MAIN */
@@ -210,7 +210,54 @@ body {
 
 
 /* MEDIA QUERY (MEDIUM) */
+@media screen and (min-width: 600px) {
 
+    main {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 0 2rem;
+    }
+
+    header img {
+        width: 175px;
+    }
+
+    .welcome h2 {
+        margin-top: 3rem;
+    }
+
+    .welcome p {
+        max-width: 75ch;
+    }
+
+    nav {
+        gap: 6rem;
+    }
+
+    .offerings {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .basket {
+        grid-column: 1 / -1;
+    }
+
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 1rem;
+    }
+
+    .gallery-button {
+        margin: 2rem auto;
+    }
+
+    footer {
+        padding: 3rem 1rem;
+    }
+}
     /* Header styles*/
 
     /* NAV */
