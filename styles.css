@@ -227,7 +227,7 @@ body {
     }
 
     .welcome p {
-        max-width: 75ch;
+        max-width: none;
     }
 
     nav {
@@ -284,6 +284,9 @@ body {
 
     header p {
         font-size: 1.25rem;
+    }
+
+    .welcome p {
         max-width: none;
     }
 
@@ -354,7 +357,7 @@ body {
     }
 
     nav {
-        gap: 25rem;
+        gap: 23rem;
     }
 
     nav a {
