@@ -234,6 +234,7 @@ body {
         gap: 6rem;
     }
 
+/* OFFERINGS SECTION */
     .offerings {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -243,6 +244,8 @@ body {
     .basket {
         grid-column: 1 / -1;
     }
+
+/* GALLERY SECTION */
 
     .gallery-grid {
         display: grid;
@@ -258,48 +261,120 @@ body {
         padding: 3rem 1rem;
     }
 }
-    /* Header styles*/
-
-    /* NAV */
-
-    /* MAIN */
-
-    /* DIVIDER STYLE */
-
-    /* OFFERINGS SECTION */
-
-    /* GALLERY SECTION */
-
-    /* GALLERY BUTTON */
-
-    /* FOOTER */
 
 
 
 
 /* MEDIA QUERY (LARGE) */
+@media screen and (min-width: 900px) {
+    
+    main {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 2rem;
+    }
 
-    /* Header styles*/
+    header img {
+        width: 225px;
+    }
 
-    /* NAV */
+    header h1 {
+        font-size: 4rem;
+    }
 
-    /* MAIN */
+    header p {
+        font-size: 1.25rem;
+        max-width: none;
+    }
 
-    /* DIVIDER STYLE */
+    nav {
+        justify-content: center;
+        gap: 16rem;
+    }
 
-    /* OFFERINGS SECTION */
 
     /* GALLERY SECTION */
 
-    /* GALLERY BUTTON */
+    .gallery-grid {
+        grid-template-columns: repeat(3,1fr);
+        gap: 1.5rem;
+    }
 
-    /* FOOTER */
+    .gallery-button {
+        margin: 2rem auto;
+    }
 
+    figcaption {
+        font-size: 1rem;
+    }
+
+    footer {
+        padding: 3rem 1rem;
+    }
+}
 
 
 
 /* MEDIA QUERY (XL) */
+@media screen and (min-width: 1200px) {
 
+    main {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 0 3rem;
+        align-items: center;
+    }
+
+    header {
+        padding: 3rem 1rem;
+    }
+
+    header img {
+        width: 275px;
+    }
+
+    header h1 {
+        font-size: 5rem;
+    }
+
+    header p {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    section p {
+        font-size: 1.1rem;
+    }
+
+    section h3 {
+        font-size: 2rem;
+    }
+
+    nav {
+        gap: 25rem;
+    }
+
+    nav a {
+        font-size: 2rem;
+    }
+
+    .welcome p {
+        max-width: none;
+    }
+
+    .gallery-grid {
+        grid-template-columns: repeat(5,1fr);
+        gap: 1.5rem;
+    }
+
+    figcaption {
+        font-size: 1rem;
+        padding: .75rem;
+    }
+}
     /* Header styles*/
 
     /* NAV */
